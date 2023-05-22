@@ -1,0 +1,173 @@
+:root{
+    --azul-principal: #0072bb;
+    --cor-botao: #337ab7;
+    --cor-cabeçalho: #02568a;
+    --branco-letra: #ffffff;
+    --fonte-letras: 'Kanit'
+}
+
+
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+ body{
+    font-family: var(--fonte-letras);
+   background-color: var(--azul-principal);
+   font-size: 17px;
+   font-weight: 400;
+   
+ }
+
+.cabeçalho {
+    background-color: var(--cor-cabeçalho);
+    color: var(--branco-letra);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+    
+    
+    
+}
+
+.Cabeçalho-img{
+    width: 10%;
+    border-radius: 50%;
+    padding-left: 0% ;
+    height: auto;
+
+}
+
+.cabeçalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 17px;
+    background-color:  var(--cor-botao);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-letra);
+}
+
+.escola-img{
+    width: 30%;
+}
+.escola{
+
+    color: var(--branco-letra);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 27px 0 ;
+    
+}
+
+.escola-div{
+    width: 35%;
+}
+
+.escola-titulo{
+    padding: 15px 0;
+    margin-bottom: 1em;
+    text-align: center;
+
+}
+.escola-texto-um{
+    margin: 1em 0 2em 0 ;
+}
+
+.estudante-titulo{
+    text-align: center;
+}
+
+.estudante-imagem{
+    width: 125px;
+    display: inline-block;
+    margin: 0 40px;
+    vertical-align: middle;
+
+}
+
+.estudante{
+    text-align: center;
+    margin: 15px;
+    padding: 10px;
+}
+
+.estudante-titulo {
+    text-align: center;
+    padding: 50px;
+    color: var(--branco-letra);
+}
+
+.estudante-nome{
+   color: var(--branco-letra);
+   display: block;
+   margin-block-start: 1em;
+   margin-block-end: 1em;
+   margin-inline-start: 0px;
+   margin-inline-end: 0px;
+   font-size: 1.17em;   
+}
+
+.lista-estudante{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px 10;
+}
+
+.item-estudante{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 17px;
+}
+
+.nome-estudante{
+    color: var(--branco-letra);
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 1.17em;
+
+}
+
+
+.sinaleiro-fisica{
+    padding-top: 30px;
+}
+
+.titulo-programação{
+    margin-top: 32px;
+    margin-bottom: 32px;
+    font-weight: 700;
+    font-size: 2rem;
+    letter-spacing: 0;
+    display: block;
+    padding-left: 40px;
+
+}
+
+.paragrafo-um{
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: 100px;
+}
+
+.lista-elementos-html{
+    font-size: large;
+    margin-top: 32px;
+    margin-left: 40px;
+}
+
+.estrutura-img{
+    vertical-align: middle;
+    height: auto;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin-left: 50px;
+}
+
