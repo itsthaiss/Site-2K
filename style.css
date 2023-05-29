@@ -194,3 +194,13 @@
     margin-left: 40px;
     margin-top: 50px;
 }
+
+.titulo-dois-pg{
+    margin-top: 32px;
+    margin-bottom: 32px;
+    font-weight: 700;
+    font-size: 2rem;
+    letter-spacing: 0;
+    display: block;
+    padding-left: 40px;
+}
