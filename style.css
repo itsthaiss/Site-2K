@@ -222,5 +222,13 @@
     font-size: 25px;
 }
 
+img-tags-estruturais{
+    vertical-align: middle;
+    height: auto;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin-left: 50px;
+    margin-top: 50px;
+}
 
 
