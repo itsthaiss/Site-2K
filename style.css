@@ -222,7 +222,7 @@
     font-size: 25px;
 }
 
-img-tags-estruturais{
+.img-tags-estruturais{
     vertical-align: middle;
     height: auto;
     max-width: 100%;
@@ -230,6 +230,10 @@ img-tags-estruturais{
     margin-left: 50px;
     margin-top: 50px;
 
+}
+
+.lsita-tags{
+font-size: 25px;
 }
 
 
