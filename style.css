@@ -262,3 +262,8 @@ font-size: 25px;
     vertical-align: middle;
 
 }
+@media screen and (max-width: 1160px) { 
+    .estu {
+        display: grid;
+        grid-template-columns: 50% 50%;}
+}
