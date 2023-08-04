@@ -263,8 +263,14 @@ font-size: 25px;
 
 }
 
-@media screen and (max-width: 1160px) { 
+@media screen and  (min-width: 356px) and (max-width: 1160px) { 
     .estu {
         display: grid;
         grid-template-columns: 50% 50%;}
+}
+
+@media screen and (max-width: 356px) {
+    .estu {
+        display: block;
+    }
 }
