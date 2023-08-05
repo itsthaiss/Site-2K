@@ -246,6 +246,13 @@ font-size: 25px;
     margin-top: 60px;
     margin-left: 50px;
     border-radius: 10px;
+    padding: 10px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    outline: none;
+    width: 270px;
 }
 
 .titulo-formulario{
