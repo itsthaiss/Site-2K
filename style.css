@@ -281,3 +281,17 @@ font-size: 25px;
         display: block;
     }
 }
+
+    .botao {
+       
+   margin-top: 60px;
+            margin-left: 50px;
+            border-radius: 10px;
+            height: 30px;
+            line-height: 30px;
+            border-radius: 15px;
+            border: 1px solid #ccc;
+            outline: none;
+            width: 270px;
+        
+    }
