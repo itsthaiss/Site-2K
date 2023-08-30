@@ -305,6 +305,7 @@ body {
     margin-top: 100px;
     margin-left: 50px;
     background-color:var(--cor-cabeçalho) ;
+    border-radius: 30px;
 
 
 }
