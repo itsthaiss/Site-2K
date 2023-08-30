@@ -302,10 +302,9 @@ body {
 
 .teclado {
 
-    margin-top: 100px;
-    margin-left: 50px;
     background-color:var(--cor-cabeçalho) ;
     border-radius: 30px;
 
-
 }
+.tecla { background-color: pink;
+color: white;}
