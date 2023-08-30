@@ -306,7 +306,7 @@ body {
     border-radius: 30px;
 
 }
-.tecla { background-color: pink;
+.tecla { background-color: black;
 color: white;
 padding: 30px;
 display: grid; gap: 10px;
