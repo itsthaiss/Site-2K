@@ -1,5 +1,4 @@
 function TocaSomToim () {
-
     documemt.querySelector('#som_tecla_toim').play();
 }
 
