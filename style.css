@@ -309,8 +309,9 @@ body {
 .tecla { background-color: black;
 color: white;
 padding: 30px;
-display: grid; gap: 10px;
-grid-template-columns: repeat(3,1fr); 
+display: grid; 
+gap: 10px;
+grid-template-columns: repeat(3, 1fr); 
 }
 
 .tecla.ativa,
@@ -323,10 +324,10 @@ grid-template-columns: repeat(3,1fr);
 .tecla.focus,
 .tecla:focus {
     outline:none ;
-    box-shadow:1px 1px 10px black ;
+    box-shadow: 1px 1px 10px black ;
 }
 
 .tecla.active:focus,
 .tecla.active:focus {
-    box-shadow:3px 3px 0 light black ;
+    box-shadow: 3px 3px 0 light black ;
 }
