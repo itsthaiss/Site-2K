@@ -10,7 +10,7 @@ let Contador = 0;
 while (Contador < 9) {
     lista[Contador].onclick = TocaSomToim;
     Contador = Contador + 1;
-    console.log(Contador)
+    console.log(Contador);
 }
 
 
