@@ -5,8 +5,13 @@ function TocaSomToim () {
 
 const Lista = document.querySelectorAll('.tecla');
 
+let Contador = 0;
 
-lista[5].onclick = TocaSomToim;
+while (Contador < 9) {
+    lista[Contador].onclick = TocaSomToim;
+    Contador = Contador + 1;
+    console.log(Contador)
+}
 
 
  
