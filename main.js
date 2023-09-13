@@ -2,7 +2,11 @@ function TocaSomToim () {
 
     documemt.querySelector('#som_tecla_toim').play();
 }
-document.querySelector('.tecla_toim'); onclick = TocaSomToim;
+
+const Lista = document.querySelectorAll('.tecla');
+
+
+lista[5].onclick = TocaSomToim;
 
 
  
