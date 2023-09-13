@@ -11,5 +11,3 @@ while (Contador < 9) {
     Contador = Contador + 1;
     console.log(Contador);
 }
-
-
