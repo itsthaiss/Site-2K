@@ -1,5 +1,5 @@
-function TocaSomToim () {
-    documemt.querySelector('#som_tecla_toim').play();
+function TocaSomToim() {
+    document.querySelector('#som_tecla_toim').play();
 }
 
 const Lista = document.querySelectorAll('.tecla');
@@ -13,4 +13,3 @@ while (Contador < 9) {
 }
 
 
- 
