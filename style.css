@@ -304,14 +304,14 @@ body {
 
     background-color:var(--cor-cabeçalho) ;
     border-radius: 30px;
-
+    display: grid; 
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr); 
 }
 .tecla { background-color: black;
 color: white;
 padding: 30px;
-display: grid; 
-gap: 10px;
-grid-template-columns: repeat(3, 1fr); 
+
 }
 
 .tecla.ativa,
