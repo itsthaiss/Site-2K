@@ -1,12 +1,13 @@
     //função = nome é TocaSomToim
-function TocaSomToim() {
+function TocaSomToim(idSom) {
     //tocando o som toim
-    document.querySelector('#som_tecla_toim').play();
+    document.querySelector(idSom).play();
 }
 
 //constante = nome lista 
 //tecla botões
 const Lista = document.querySelectorAll('.tecla');
+
 
 let Contador = 0;
 
