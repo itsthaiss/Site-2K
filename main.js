@@ -1,5 +1,5 @@
     //função = nome é TocaSomToim
-function TocaSomToim(idSom) {
+function TocaSom(idSom) {
     //tocando o som toim
     document.querySelector(idSom).play();
 }
@@ -12,7 +12,11 @@ const Lista = document.querySelectorAll('.tecla');
 let Contador = 0;
 
 while (Contador < Lista.length) {
-    Lista[Contador].onclick = TocaSomToim;
-    Contador = Contador + 1;
+    Lista[Contador].onclick = function() {TocaSom('#som_tecla_toim');
+}
+    const classe1 = Lista[Contador]. classList[1];
+    console.log(classe1);
+    
+Contador = Contador + 1;
     console.log(Contador);
 }
