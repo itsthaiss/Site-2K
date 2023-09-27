@@ -18,11 +18,12 @@ while (Contador < Lista.length) {
     const idSomOficial = `#som_${classe1}`;
     console.log(idSomOficial);
 
-    Lista[Contador].onclick = function() {TocaSom(idSomOficial);
+    Lista[Contador].onclick = function() {
+        TocaSom(idSomOficial);
 }
     
 Contador = Contador + 1;
-tecla.onkeydown = function( evento) {
+tecla.onkeydown = function (evento) {
    tecla.classList.add("ativa");
    console.log(evento.code);
 }
