@@ -12,13 +12,14 @@ const Lista = document.querySelectorAll('.tecla');
 let Contador = 0;
 
 while (Contador < Lista.length) {
-    const classe1 = Lista[Contador]. classList[1];
+    const tecla = Lista[Contador]
+    const classe1 =tecla. classList[1];
     console.log(classe1);
     
     const idSomOficial = `#som_${classe1}`;
     console.log(idSomOficial);
 
-    Lista[Contador].onclick = function() {
+   tecla.onclick = function() {
         TocaSom(idSomOficial);
 }
     
