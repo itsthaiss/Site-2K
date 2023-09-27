@@ -13,7 +13,7 @@ let Contador = 0;
 
 while (Contador < Lista.length) {
     const tecla = Lista[Contador]
-    const classe1 =tecla. classList[1];
+    const classe1 =tecla.classList[1];
     console.log(classe1);
     
     const idSomOficial = `#som_${classe1}`;
