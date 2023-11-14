@@ -28,8 +28,6 @@ body {
     align-items: center;
     padding: 20px 0;
 
-
-
 }
 
 .Cabeçalho-img {
@@ -331,4 +329,9 @@ padding: 30px;
 .tecla.active:focus,
 .tecla.active:focus {
     box-shadow: 3px 3px 0 light black ;
+}
+
+.tituloteclado {
+    font-size:  25px;
+    color: black;
 }
