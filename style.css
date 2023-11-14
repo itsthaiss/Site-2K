@@ -333,3 +333,6 @@ padding: 30px;
     box-shadow: 3px 3px 0 light black ;
 }
 
+h1 {
+    position: relative;
+}
